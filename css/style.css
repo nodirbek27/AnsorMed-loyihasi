@@ -1,0 +1,135 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Open sans", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+
+/* HEADER */
+.site-header{
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-header-sitenav{
+  display: flex;
+  align-items: center;
+}
+
+.sitenav-lists{
+  display: flex;
+  list-style: none;
+
+}
+
+.sitenav-item{
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #222;
+  text-decoration: none;
+}
+
+.main-link{
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  background-color: #DE2E54;
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero{
+  background-color: #0EB4C1;
+  display: flex;
+}
+
+.hero-heading{
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  color: #FFF;
+}
+
+.hero-text{
+  font-weight: 400;
+  font-size: 18px;
+  width: 440px;
+  color: #FFF;
+}
+
+/* SERVICES */
+.services-heading{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  color: #000;
+}
+
+.services-item{
+  display: flex;
+}
+
+.service-title{
+  font-family: "Open Sans Condensed", sans-serif;
+  font-style: 24px;
+  line-height: 1.2;
+  color: #222;
+}
+
+.service-text{
+  font-weight: 400;
+  font-style: 16px;
+  color: #444;
+}
+
+  /* CTA */
+.cta{
+  background-color: #0EB4C1;
+}
+
+#registration{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  color: #FFF;
+  text-align: center;
+}
+
+.cta-lists{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.cta-link{
+  font-family: "Open Sans Condensed", sans-serif;
+  font-style: 15px;
+  line-height: 1.2;
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* FOOTER */
+.site-footer{
+  background-color: #222;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-footer-lists{
+  display: flex;
+  list-style: none;
+}
+
+.site-footer a{
+  color: #FFF;
+}
