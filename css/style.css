@@ -122,7 +122,6 @@ body{
   font-size: 36px;
   line-height: 1.2;
   color: #FFF;
-  /* padding-top: 120px; */
   margin-top: 0;
   margin-bottom: 16px;
 }
@@ -158,8 +157,13 @@ body{
 
 /* SERVICES */
 .services-container{
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 864px;
 }
+
 .services-heading{
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 36px;
